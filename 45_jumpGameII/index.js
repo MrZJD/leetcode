@@ -24,7 +24,6 @@ const jump = function(nums) {
             routeLen -= routeLen
             currIndex += routeLen
         } else { // 1. 当前这一步走不到最后
-            // 是否有合适的值能走到最后
             let range = nums.slice(currIndex + 1, currIndex + 1 + nowStep)
             // 2. 查找范围内的能走的最大步数
 
